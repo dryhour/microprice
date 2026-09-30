@@ -1,6 +1,6 @@
-# OpenAlpha — Quant Research Role
+# Microprice — Quant Research Role
 
-> **OpenAlpha: A Research and Execution Framework for Short-Horizon Statistical Trading**
+> **Microprice: A Research and Execution Framework for Short-Horizon Statistical Trading**
 > Role owner: **Quant Research (QR)** · Partner role: [Quant Engineering](./QUANT_ENGINEERING.md)
 > Duration: 8 weeks · Output: research paper + reproducible repo + dashboard
 
@@ -165,7 +165,7 @@ Review this before every result goes into the paper.
 
 ## 8. Paper Outline
 
-`paper/openalpha.pdf`, 8–15 pages:
+`paper/microprice.pdf`, 8–15 pages:
 
 1. **Abstract:** question, data, main finding with numbers
 2. **Introduction:** why OFI, and prior work (Cont et al. 2014; Stoikov 2018; Cartea, Jaimungal & Penalva)

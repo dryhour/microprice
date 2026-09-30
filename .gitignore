@@ -1,0 +1,17 @@
+# Data and run outputs are regenerated from raw data, not committed
+data/**
+!data/**/
+!data/**/.gitkeep
+results/**
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

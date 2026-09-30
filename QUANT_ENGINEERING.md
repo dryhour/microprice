@@ -1,6 +1,6 @@
-# OpenAlpha — Quant Engineering Role
+# Microprice — Quant Engineering Role
 
-> **OpenAlpha: A Research and Execution Framework for Short-Horizon Statistical Trading**
+> **Microprice: A Research and Execution Framework for Short-Horizon Statistical Trading**
 > Role owner: **Quant Engineering (QE)** · Partner role: [Quant Research](./QUANT_RESEARCH.md)
 > Duration: 8 weeks · Output: data platform + backtester + execution sim + API/dashboard
 
@@ -260,7 +260,7 @@ Both roles share this contract, and it is repeated in `QUANT_RESEARCH.md`. Chang
 ## 9. Repository Layout (shared)
 
 ```
-openalpha/
+microprice/
 ├── ingest/          # QE: collectors, loaders
 ├── book/            # QE: order-book reconstruction
 ├── features/        # QE implements, QR specs
