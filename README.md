@@ -97,9 +97,9 @@ Tick a box when it's done and merged. A week's **Gate** must be fully ticked bef
 ### Week 1: Research setup (due Tue Oct 6)
 
 **QR — Derek**
-- [ ] Finalize research question and H1–H5, with the economic rationale for each (Fri Oct 2)
+- [x] Finalize research question and H1–H5, with the economic rationale for each → [research/hypotheses.md](./research/hypotheses.md) (Fri Oct 2)
 - [ ] Literature review notes in `research/`: Cont, Kukanov & Stoikov (2014); Stoikov (2018); Cartea, Jaimungal & Penalva; Bailey & López de Prado (deflated Sharpe) (Tue Oct 6)
-- [ ] Sign off feature spec ([QR §3](./QUANT_RESEARCH.md)) and label spec: horizons, clock vs. event time, mid vs. microprice (Fri Oct 2)
+- [x] Sign off feature spec and label spec: horizons, clock vs. event time, mid vs. microprice → [research/feature_label_spec.md](./research/feature_label_spec.md) (Fri Oct 2)
 - [ ] Choose symbol and date universe **before** looking at any results, and write it down (Tue Oct 6)
 - [ ] Define the final holdout dates (last ~20%) and record them (Tue Oct 6)
 - [ ] Create `research/trials.csv` with its column headers (Tue Oct 6)
