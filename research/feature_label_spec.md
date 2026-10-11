@@ -210,4 +210,4 @@ QR supplies a hand-computed example for each item by Wed Oct 14 (Week 3), and th
 | | Name | Date |
 |---|------|------|
 | Spec (QR) | Derek | Fri Oct 2, 2026 |
-| Implementation review (QE) | Josh | _pending_ |
+| Implementation review (QE) | Josh | _pending_. The v1 subset (QI, spread, mid, rv, momentum, z-scores, clock-time labels) was implemented Oct 11 in `features/` and matches [hand_calcs/v1_features.md](./hand_calcs/v1_features.md); Josh to review. Clarifications proposed for v1.1 are in [week3_features.md](./week3_features.md) §2. |

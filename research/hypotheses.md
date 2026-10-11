@@ -129,8 +129,8 @@ These apply to every hypothesis unless the test says otherwise.
 - [x] Hypotheses, nulls, tests and decision rules above are frozen as of Fri Oct 2, 2026
 - [x] The main OFI variable (`ofi_10s_z`) and the control set are fixed. Other OFI windows and multi-level OFI are reported as secondary results and counted as trials
 - [x] A negative sign in H1 or a rejection of H4 gets reported, not reframed
-- [ ] Symbol and date universe, and liquidity buckets, chosen and frozen (due Tue Oct 6)
-- [ ] Holdout dates recorded (due Tue Oct 6)
+- [x] Symbol and date universe, and liquidity buckets, chosen and frozen (due Tue Oct 6; done Sun Oct 11, before any result): [universe.md](./universe.md). The bucket *rule* is frozen there; the assignment is computed from in-sample activity, before any IC, into `configs/liquidity_buckets.yaml`
+- [x] Holdout dates recorded (due Tue Oct 6; done Sun Oct 11): 2026-06-01 … 2026-10-01 (5 of 24 dates), refused by research code until Week 7
 
 ## References
 

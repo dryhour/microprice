@@ -1,0 +1,47 @@
+# Research universe, FROZEN 2026-10-11 before any feature, label or return was computed.
+# Rationale and selection rules: research/universe.md. Do not edit; any change is a new
+# version with a dated note in research/universe.md and counts as a trial.
+version: 1
+frozen_at: "2026-10-11"
+venue: coinbase                 # Coinbase spot, USD quote
+source: coinbase_tardis         # historical Coinbase Exchange L2 + trades via Tardis.dev
+
+# Geometric ranks 1, 2, 4, 8, 16, 32 by 30-day USD volume among eligible pairs.
+symbols: [BTC-USD, ETH-USD, ZEC-USD, QNT-USD, HBAR-USD, APT-USD]
+
+# First UTC day of every month, Nov 2024 - Oct 2026 (24 dates).
+dates:
+  in_sample:
+    - "2024-11-01"
+    - "2024-12-01"
+    - "2025-01-01"
+    - "2025-02-01"
+    - "2025-03-01"
+    - "2025-04-01"
+    - "2025-05-01"
+    - "2025-06-01"
+    - "2025-07-01"
+    - "2025-08-01"
+    - "2025-09-01"
+    - "2025-10-01"
+    - "2025-11-01"
+    - "2025-12-01"
+    - "2026-01-01"
+    - "2026-02-01"
+    - "2026-03-01"
+    - "2026-04-01"
+    - "2026-05-01"
+  # Final holdout: last 5 of 24 dates (20.8%). Evaluated exactly once, in Week 7.
+  holdout:
+    - "2026-06-01"
+    - "2026-07-01"
+    - "2026-08-01"
+    - "2026-09-01"
+    - "2026-10-01"
+
+# Liquidity buckets for H3 are assigned from in-sample median trades/min and median spread in
+# ticks, computed BEFORE any IC (research/studies/liquidity_buckets.py) and written to
+# configs/liquidity_buckets.yaml.
+liquidity_buckets:
+  n_buckets: 3
+  rule: "rank by median trades per minute (descending), ties by median spread in ticks (ascending); 2 symbols per bucket"

@@ -1,0 +1,11 @@
+# Live collector settings (ingest/coinbase_ws.py).
+# Symbols are the frozen research universe, see research/universe.md.
+symbols: [BTC-USD, ETH-USD, ZEC-USD, QNT-USD, HBAR-USD, APT-USD]
+url: wss://advanced-trade-ws.coinbase.com
+flush_interval_s: 300     # each flush writes new immutable part files
+audit_interval_s: 900     # exchange snapshot for the golden test, per symbol
+stale_timeout_s: 10       # heartbeats come every 1 s
+health_interval_s: 60
+backoff_base_s: 1.0
+backoff_cap_s: 60.0
+healthy_after_s: 60       # reset backoff once a connection has been up this long

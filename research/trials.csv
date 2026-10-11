@@ -1,0 +1,1 @@
+trial_id,run_at_utc,git_sha,owner,stage,hypothesis,feature,label,model,params,symbols,dates,sample,n_obs,n_eff,metric,value,t_stat,p_value,ci_low,ci_high,sharpe_ann,status,notes
